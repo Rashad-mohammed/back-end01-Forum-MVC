@@ -1,0 +1,110 @@
+/* //////////////////////////////////////         HEADER        /////////////////////////////////////////////////////// */
+body {
+    font-family: Calibri;
+}
+header{
+    height: 100px;
+    align-items: center;
+    line-height: 100px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+}
+
+#nav-left{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+}
+#nav-right{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+}
+nav a:hover{
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////    les       listes/////////////////////////////////////////////////// */
+.liste-topics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+.liste-topics div{
+    width: 500px;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    padding: 30px;
+}
+.liste-categoris{
+        
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categoris{
+    width: 20%;
+    height: 75px;
+    border-radius: 8px;
+    background-color: #88b5cf;
+    text-align: center;
+    padding: 20px;   
+    line-height: 75px;
+}
+.categoris a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.categoris a:hover {
+    color:#555bc0;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////              les formulaires             /////////////////////////////// */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////              les formulaires             /////////////////////////////// */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////                  FOOTER                   ////////////////////////////// */
+footer{
+    height: 75px;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.bienvenue{
+    background-color: aqua;
+    padding: 50px;
+}
+
